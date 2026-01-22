@@ -5,3 +5,20 @@ shell-integration = zsh
 
 # Some shaders can be found in this repo, they're usually uploaded to discord
 custom-shader = shaders/cursor_smear.glsl
+# custom-shader = shaders/bettercrt.glsl
+# custom-shader = shaders/in-game-crt.glsl
+# custom-shader = shaders/in-game-crt-cursor.glsl
+# custom-shader = shaders/tft.glsl
+# custom-shader = shaders/smoke-and-ghost.glsl
+
+
+# background-opacity = 0.95
+# background-blur-radius = 20
+
+# macOS specific features
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+window-save-state = always
+window-vsync = true
+window-colorspace = display-p3
+quick-terminal-screen = macos-menu-bar
