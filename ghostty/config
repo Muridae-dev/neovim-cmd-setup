@@ -1,0 +1,7 @@
+theme = Kanagawa Dragon
+font-family = CaskaydiaCove Nerd Font
+macos-titlebar-style = tabs
+shell-integration = zsh
+
+# Some shaders can be found in this repo, they're usually uploaded to discord
+custom-shader = shaders/cursor_smear.glsl
