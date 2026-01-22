@@ -12,7 +12,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
     os.exit(1)
   end
 end
-vim.g.colorscheme = "kanagawa-dragon"
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
@@ -51,5 +50,3 @@ require("lazy").setup({
     },
   },
 })
-
-vim.g.colorscheme = "kanagawa-dragon"
