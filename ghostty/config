@@ -1,5 +1,8 @@
 theme = Kanagawa Dragon
-font-family = CaskaydiaCove Nerd Font
+# font-family = CaskaydiaCove Nerd Font
+font-family = "JetBrainsmono Nerd Font"
+# font-family = "Fantasque Sans Mono Nerd Font"
+# font-family = "Mononoki"
 macos-titlebar-style = tabs
 shell-integration = zsh
 

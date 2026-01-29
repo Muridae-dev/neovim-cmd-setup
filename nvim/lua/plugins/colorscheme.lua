@@ -28,6 +28,7 @@ return {
         -- Optionally configure and load the colorscheme
         -- directly inside the plugin declaration.
         vim.g.sonokai_enable_italic = true
+        vim.cmd.colorscheme("everforest")
       end,
     },
     {
@@ -60,9 +61,7 @@ return {
       "rebelot/kanagawa.nvim",
       priority = 1000,
       lazy = false,
-      init = function()
-        vim.cmd.colorscheme("kanagawa-dragon")
-      end,
+      init = function() end,
 
       opts = {
         colors = {
@@ -167,7 +166,6 @@ return {
     },
     config = function(_, opts)
       require("kanagawa").setup(opts)
-      vim.cmd([[colorscheme kanagawa]])
     end,
   },
 }
