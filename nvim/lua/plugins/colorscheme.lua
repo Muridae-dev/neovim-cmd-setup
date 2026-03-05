@@ -1,18 +1,21 @@
 return {
   {
     "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "kanagawa",
-    },
   },
   {
     "tiagovla/tokyodark.nvim",
     "Mofiqul/dracula.nvim",
     "olimorris/onedarkpro.nvim",
     "scottmckendry/cyberdream.nvim",
+    "nyoom-engineering/oxocarbon.nvim",
 
     opts = {
       -- custom options here
+    },
+    {
+      "nyoom-engineering/oxocarbon.nvim",
+      lazy = false,
+      priority = 1000,
     },
     {
       "morhetz/gruvbox",
