@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1773059102186,
+  "projectRoot": "/Users/noah/.config",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "ghostty": {
+      "path": "ghostty",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1773059102172,
+      "keyFiles": [
+        "config"
+      ]
+    },
+    "nvim": {
+      "path": "nvim",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1773059102172,
+      "keyFiles": [
+        "LICENSE",
+        "README.md",
+        "init.lua",
+        "lazy-lock.json",
+        "lazyvim.json"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
