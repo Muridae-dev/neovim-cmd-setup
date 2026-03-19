@@ -18,6 +18,26 @@ return {
       priority = 1000,
     },
     {
+      "junegunn/seoul256.vim",
+      lazy = false,
+      priority = 1000,
+    },
+    {
+      "zefei/cake16",
+      lazy = false,
+      priority = 1000,
+    },
+    {
+      "rakr/vim-one",
+      lazy = false,
+      priority = 1000,
+    },
+    {
+      "rakr/vim-two-firewatch",
+      lazy = false,
+      priority = 1000,
+    },
+    {
       "morhetz/gruvbox",
       lazy = false,
       priority = 1000,
