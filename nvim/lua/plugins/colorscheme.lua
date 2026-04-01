@@ -74,7 +74,7 @@ return {
       lazy = false,
       priority = 1000,
       config = function()
-        vim.cmd.colorscheme("noctis")
+        vim.cmd.colorscheme("noctis-lux")
       end,
     },
     {
