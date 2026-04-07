@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1773059102186,
-  "projectRoot": "/Users/noah/.config",
+  "lastScanned": 1775565824919,
+  "projectRoot": "/Users/noahlundberg/.config",
   "techStack": {
     "languages": [],
     "frameworks": [],
@@ -25,7 +25,10 @@
     "isMonorepo": false,
     "workspaces": [],
     "mainDirectories": [],
-    "gitBranches": null
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
   },
   "customNotes": [],
   "directoryMap": {
@@ -33,16 +36,25 @@
       "path": "ghostty",
       "purpose": null,
       "fileCount": 2,
-      "lastAccessed": 1773059102172,
+      "lastAccessed": 1775565824902,
       "keyFiles": [
         "config"
+      ]
+    },
+    "git": {
+      "path": "git",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775565824902,
+      "keyFiles": [
+        "ignore"
       ]
     },
     "nvim": {
       "path": "nvim",
       "purpose": null,
       "fileCount": 8,
-      "lastAccessed": 1773059102172,
+      "lastAccessed": 1775565824902,
       "keyFiles": [
         "LICENSE",
         "README.md",
@@ -52,6 +64,19 @@
       ]
     }
   },
-  "hotPaths": [],
+  "hotPaths": [
+    {
+      "path": "nvim/lua/plugins/colorscheme.lua",
+      "accessCount": 2,
+      "lastAccessed": 1775566301246,
+      "type": "file"
+    },
+    {
+      "path": "ghostty/config",
+      "accessCount": 1,
+      "lastAccessed": 1775565904290,
+      "type": "file"
+    }
+  ],
   "userDirectives": []
 }
