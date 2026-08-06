@@ -43,6 +43,10 @@ return {
       })
 
       vim.lsp.enable("tsgo")
+
+      -- LazyVim enables inlay hints for every capable server; tsgo emits type
+      -- hints by default, which shows greyed-out inferred types inline.
+      opts.inlay_hints = { enabled = false }
       return opts
     end,
   },

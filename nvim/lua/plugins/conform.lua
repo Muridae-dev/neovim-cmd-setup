@@ -20,7 +20,7 @@ return {
         typescriptreact = { "oxfmt", "biome", stop_after_first = true },
         vue = { "oxfmt", "biome", stop_after_first = true },
         svelte = { "oxfmt", "biome", stop_after_first = true },
-        astro = { "oxfmt", "biome", stop_after_first = true },
+        astro = { "prettier" },
       },
     },
   },
