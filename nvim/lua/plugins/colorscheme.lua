@@ -80,7 +80,7 @@ return {
 
         if result:match("Dark") then
           vim.o.background = "dark"
-          vim.cmd.colorscheme("tokyodark")
+          vim.cmd.colorscheme("everforest")
         else
           vim.o.background = "light"
           vim.cmd.colorscheme("everforest")

@@ -21,8 +21,13 @@ return {
       end
 
       -- tsgo: only attach when the project ships the binary. The shipped config
-      -- already prefers node_modules/.bin/tsgo for the cmd.
+      -- (now an alias for tsc) prefers node_modules/.bin/tsc over tsgo, and
+      -- plain tsc exits 1 on --lsp --stdio, so force the local tsgo binary.
       vim.lsp.config("tsgo", {
+        cmd = function(dispatchers, config)
+          local bin = vim.fs.joinpath(config.root_dir, "node_modules", ".bin", "tsgo")
+          return vim.lsp.rpc.start({ bin, "--lsp", "--stdio" }, dispatchers)
+        end,
         root_dir = function(bufnr, on_dir)
           local root = project_root(bufnr)
           if has_local_tsgo(root) then
