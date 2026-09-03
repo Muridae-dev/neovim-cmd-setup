@@ -80,9 +80,23 @@ return {
 
         if result:match("Dark") then
           vim.o.background = "dark"
+          vim.g.everforest_background = "hard"
+          -- Shift the whole bg stack down so cursorline/statusline/floats keep
+          -- their relative contrast against the near-black bg used in Ghostty's
+          -- EverforestDarker theme.
+          vim.g.everforest_colors_override = {
+            bg_dim = { "#060909", "232" },
+            bg0 = { "#0b0f10", "233" },
+            bg1 = { "#141a1c", "234" },
+            bg2 = { "#1e2428", "235" },
+            bg3 = { "#282f33", "236" },
+          }
           vim.cmd.colorscheme("everforest")
         else
           vim.o.background = "light"
+          vim.g.everforest_background = "medium"
+          -- Must be a Dictionary on the Vimscript side; a plain {} becomes a List.
+          vim.g.everforest_colors_override = vim.empty_dict()
           vim.cmd.colorscheme("everforest")
         end
       end,
